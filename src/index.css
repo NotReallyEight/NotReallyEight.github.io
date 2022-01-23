@@ -1,13 +1,101 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Element selectors */
+
+header {
+  border-bottom: 2px solid yellow;
+  color: whitesmoke;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #36393e;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial Black, sans-serif;
+}
+
+h2 {
+  font-family: Arial Black, sans-serif;
+  color: whitesmoke;
+}
+
+h3 {
+  font-family: Arial Black, sans-serif;
+  color: whitesmoke;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  color: rgb(0, 116, 204);
+  display: inline-block;
+  transition: 250ms;
+}
+
+a:hover {
+  color: white;
+  transform: -moz-transform matrix3d();
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+/* Class selectors */
+
+.typescript-text {
+  color: lightblue;
+}
+
+.javascript-text {
+  color: yellow;
+}
+
+.nodejs-text {
+  color: lightgreen;
+}
+
+.visual-studio-code-text {
+  color: rgb(72, 203, 247);
+}
+
+.eris-text {
+  color: white;
+}
+
+.faq {
+  margin: auto;
+  align-items: center;
+  width: 50%;
+}
+
+.faq-columns {
+  display: flex;
+  width: 750px;
+}
+
+.faq-column {
+  width: 500px;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid yellow;
+  text-align: center;
+}
+
+.faq-text {
+  font-size: 16px;
+}
+
+.invalid-page-paragraph {
+  font-size: 16px;
+  text-align: center;
+}
+
+.invalid-page-header {
+  text-align: center;
 }
