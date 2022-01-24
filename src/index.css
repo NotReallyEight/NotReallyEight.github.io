@@ -70,14 +70,15 @@ ul {
 
 .faq {
   margin: auto;
-  align-items: center;
   width: 50%;
+  height: 270px;
 }
 
 .faq-columns {
-  display: flex;
   width: 750px;
   height: 270px;
+  display: flex;
+  flex-direction: row;
 }
 
 .faq-column {
@@ -99,4 +100,33 @@ ul {
 
 .invalid-page-header {
   text-align: center;
+}
+
+@media screen and (max-width: 1127px) {
+  .faq-columns {
+    flex-direction: column;
+    margin-left: 70px;
+    align-items: center;
+    width: 10%;
+    height: 270px;
+  }
+
+  .footer {
+    margin-top: 150px;
+  }
+
+  .faq-column {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .faq-text {
+    font-size: 14px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
 }

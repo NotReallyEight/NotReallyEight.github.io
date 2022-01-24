@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div>
+    <div className="footer">
       <h2>What about me?</h2>
 
       <p>

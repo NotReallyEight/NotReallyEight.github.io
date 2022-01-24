@@ -1,8 +1,9 @@
 export default function Introduction() {
   return (
-    <>
+    <div>
       <h2>Introduction</h2>
       <main>
+
         <p>
           I'm a back-end developer mostly working on Discord's API in{" "}
           <strong className="typescript-text">TypeScript</strong>,{" "}
@@ -23,6 +24,6 @@ export default function Introduction() {
           .
         </p>
       </main>
-    </>
+    </div>
   );
 }
