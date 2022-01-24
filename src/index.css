@@ -50,22 +50,52 @@ ul {
 
 .typescript-text {
   color: lightblue;
+  transition: 250ms;
+}
+
+.typescript-text:hover {
+  color: white;
+  transform: -moz-transform matrix3d();
 }
 
 .javascript-text {
   color: yellow;
+  transition: 250ms;
+}
+
+.javascript-text:hover {
+  color: white;
+  transform: -moz-transform matrix3d();
 }
 
 .nodejs-text {
   color: lightgreen;
+  transition: 250ms;
+}
+
+.nodejs-text:hover {
+  color: white;
+  transform: -moz-transform matrix3d();
 }
 
 .visual-studio-code-text {
   color: rgb(72, 203, 247);
+  transition: 250ms;
+}
+
+.visual-studio-code-text:hover {
+  color: white;
+  transform: -moz-transform matrix3d();
 }
 
 .eris-text {
+  color: lightblue;
+  transition: 250ms;
+}
+
+.eris-text:hover {
   color: white;
+  transform: -moz-transform matrix3d();
 }
 
 .faq {
