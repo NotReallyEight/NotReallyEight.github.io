@@ -1,4 +1,4 @@
-export default function Introduction() {
+export default function HomeIntroduction() {
   return (
     <div>
       <h2>Introduction</h2>

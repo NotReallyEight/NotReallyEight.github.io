@@ -1,3 +1,9 @@
+import Title from "../components/Title";
+
 export default function AboutMe() {
-  return <h1>About me test</h1>;
+  return (
+    <div className="AboutMe">
+      <Title title="About me" />
+    </div>
+  )
 }
