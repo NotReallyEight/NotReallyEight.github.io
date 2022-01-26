@@ -18,8 +18,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
-    "importHelpers": true,
+    "jsx": "preserve",
+    "importHelpers": true
   },
   "include": [
     "src"

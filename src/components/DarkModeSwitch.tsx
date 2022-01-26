@@ -3,11 +3,11 @@ import { Switch } from "@mantine/core";
 
 export default class DarkModeSwitch extends Component {
   state = {
-    darkModeEnabled: sessionStorage.getItem("darkmode") === "true",
+    darkModeEnabled: localStorage.getItem("darkmode") === "true",
   };
   handleChange(event: ChangeEvent<HTMLInputElement>) {
     this.setState({ darkModeEnabled: event.currentTarget.checked });
-    sessionStorage.setItem(
+    localStorage.setItem(
       "darkmode",
       JSON.stringify(event.currentTarget.checked)
     );
