@@ -1,3 +1,6 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;800&display=swap");
+
 /* Element selectors */
 
 header {
@@ -8,22 +11,26 @@ header {
 body {
   background-color: #36393e;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
 }
 
 h1 {
   text-align: center;
-  font-family: Arial Black, sans-serif;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
 }
 
 h2 {
-  font-family: Arial Black, sans-serif;
+  font-family: "Inter", sans-serif;
   color: whitesmoke;
+  font-weight: 800;
 }
 
 h3 {
-  font-family: Arial Black, sans-serif;
+  font-family: "Inter", sans-serif;
   color: whitesmoke;
+  font-weight: 800;
 }
 
 p {
@@ -132,7 +139,7 @@ ul {
   text-align: center;
 }
 
-@media screen and (max-width: 1127px) {
+@media (max-width: 620px) {
   .faq-columns {
     flex-direction: column;
     margin-left: 70px;
@@ -142,12 +149,13 @@ ul {
   }
 
   .footer {
-    margin-top: 150px;
+    margin-top: 300px;
   }
 
   .faq-column {
     margin-left: 50px;
     margin-right: 50px;
+    width: 300px;
   }
 
   .faq-text {
