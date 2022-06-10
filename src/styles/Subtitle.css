@@ -1,0 +1,21 @@
+.Subtitle {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.Subtitle__section {
+	margin: auto;
+}
+
+.subtitle__title {
+	text-align: center;
+	margin: auto;
+}
+
+.subtitle__text {
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+}

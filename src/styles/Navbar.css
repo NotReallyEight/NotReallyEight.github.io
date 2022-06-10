@@ -1,0 +1,20 @@
+.Navbar {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	background-color: #aac0e3;
+}
+
+.navbar__logo {
+	width: 10vh;
+	padding: 1vh;
+	border-radius: 50%;
+	filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (max-width: 700px) {
+	.navbar__logo {
+		width: 5vh;
+		padding: 0.5vh;
+	}
+}

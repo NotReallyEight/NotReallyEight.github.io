@@ -1,0 +1,10 @@
+.Title {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.title__text {
+	text-align: center;
+	margin: auto;
+}

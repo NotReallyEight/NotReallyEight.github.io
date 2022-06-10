@@ -1,18 +1,18 @@
 import { Component } from "react";
+import "../styles/Title.css";
 
 type TitleProps = {
-  title: string;
+	title: string;
 };
 
 export default class Title extends Component<TitleProps> {
-  title: string = this.props.title;
-  render() {
-    return (
-      <div>
-        <header className="Title">
-          <h1>{this.title}</h1>
-        </header>
-      </div>
-    );
-  }
+	render() {
+		return (
+			<>
+				<header className="Title">
+					<h1 className="title__text">{this.props.title}</h1>
+				</header>
+			</>
+		);
+	}
 }
