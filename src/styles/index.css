@@ -15,6 +15,7 @@
 			format("truetype"),
 		/* Safari, Android, iOS */
 			url("../../public/fonts/Exo/exo-v19-latin-800.svg#Exo") format("svg"); /* Legacy iOS */
+	font-display: swap;
 }
 
 /* MerriWeather */
@@ -38,6 +39,7 @@
 		/* Safari, Android, iOS */
 			url("../../public/fonts/Merriweather/merriweather-v30-latin-700italic.svg#Merriweather")
 			format("svg"); /* Legacy iOS */
+	font-display: swap;
 }
 
 /* Cambay */
@@ -61,6 +63,7 @@
 		/* Safari, Android, iOS */
 			url("../../public/fonts/Cambay/cambay-v12-latin-regular.svg#Cambay")
 			format("svg"); /* Legacy iOS */
+	font-display: swap;
 }
 
 h1 {
