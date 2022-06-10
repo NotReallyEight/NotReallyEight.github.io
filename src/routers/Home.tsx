@@ -18,7 +18,7 @@ export default class Home extends Component {
 				<Projects></Projects>
 				<ProjectSection
 					imageAlt="Erebus"
-					imagePath="/images/erebus.png"
+					imagePath="/images/erebus.webp"
 					text="From the darkness to you, bring your Discord bot to a next level."
 					title="Erebus - Discord API Wrapper"
 					projectUrl="https://erebus.js.org"
@@ -26,7 +26,7 @@ export default class Home extends Component {
 				></ProjectSection>
 				<ProjectSection
 					imageAlt="ATN Modmail"
-					imagePath="/images/atn-modmail.png"
+					imagePath="/images/atn-modmail.webp"
 					text="ATN Modmail is an easy to use Discord Modmail bot! This is also a nice alternative to premade Modmail bots because of the customisable things that you can find!"
 					title="ATN Modmail — Discord Modmail Bot"
 					projectUrl="https://docs.notreallyeight.tk/atn-modmail"
@@ -34,7 +34,7 @@ export default class Home extends Component {
 				></ProjectSection>
 				<ProjectSection
 					imageAlt="Discorder"
-					imagePath="/images/discorder.png"
+					imagePath="/images/discorder.webp"
 					text="A secure Discord logging API."
 					title="Discorder - REST API"
 					projectUrl="https://discorder.xyz"
