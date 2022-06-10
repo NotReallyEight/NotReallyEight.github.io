@@ -6,10 +6,6 @@
 	flex-direction: column;
 }
 
-.Experiences h2 {
-	color: white;
-}
-
 .experiences__description {
 	font-size: 1.5vw;
 }
