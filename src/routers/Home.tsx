@@ -10,7 +10,7 @@ import ProjectSection from "../components/ProjectSection";
 export default class Home extends Component {
 	render(): JSX.Element {
 		return (
-			<div className="Home">
+			<div className="Home" dir="ltr">
 				<Introduction></Introduction>
 				<Navbar></Navbar>
 				<AboutMe></AboutMe>

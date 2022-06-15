@@ -1,6 +1,6 @@
 .Navbar {
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	background-color: #aac0e3;
 }
