@@ -1,0 +1,22 @@
+version: 2
+updates:
+  - directory: "/"
+    open-pull-requests-limit: 5
+    package-ecosystem: npm
+    rebase-strategy: auto
+    schedule:
+      interval: "daily"
+      time: "09:00"
+      timezone: "Europe/Rome"
+    assignees:
+      - "NotReallyEight"
+    commit-message:
+      prefix: "deps"
+      prefix-development: "devDeps"
+      include: "scope"
+    pull-request-branch-name:
+      separator: "-"
+    reviewers:
+      - "NotReallyEight"
+    target-branch: "react-rewrite"
+    versioning-strategy: auto
