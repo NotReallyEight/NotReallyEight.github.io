@@ -8,9 +8,30 @@ import Projects from "../components/Projects";
 import ProjectSection from "../components/ProjectSection";
 
 export default class Home extends Component {
+	constructor(props: any) {
+		super(props);
+		this.state = {
+			previousScrollPosition: 0,
+		};
+	}
+
+	handleScroll(thisKeyword: Home) {
+		const homeElement = document.querySelector(".Home");
+		let currentScrollPosition = homeElement?.scrollTop ?? 0;
+		if (
+			(thisKeyword.state as Readonly<{ previousScrollPosition: number }>)
+				.previousScrollPosition < currentScrollPosition
+		)
+			(document.querySelector(".Navbar") as HTMLElement).style.top = "-100%";
+		else (document.querySelector(".Navbar") as HTMLElement).style.top = "0";
+
+		thisKeyword.setState({ previousScrollPosition: currentScrollPosition });
+		return undefined;
+	}
+
 	render(): JSX.Element {
 		return (
-			<div className="Home" dir="ltr">
+			<div className="Home" dir="ltr" onScroll={() => this.handleScroll(this)}>
 				<Introduction></Introduction>
 				<Navbar></Navbar>
 				<AboutMe></AboutMe>
