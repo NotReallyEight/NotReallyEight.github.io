@@ -1,0 +1,11 @@
+.Footer {
+  background-color: #7c92b3;
+  margin-top: auto;
+}
+
+.footer__text {
+  color: #fff;
+  font-family: "Merriweather";
+  text-align: center;
+  padding: 1vh;
+}
