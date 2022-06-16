@@ -3,6 +3,8 @@
 	position: fixed;
 	top: 0;
 	background-color: #aac0e3;
+	transition: top 250ms;
+	z-index: 1;
 }
 
 .navbar__logo {
