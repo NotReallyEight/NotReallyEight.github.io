@@ -6,6 +6,7 @@ import AboutMe from "../components/AboutMe";
 import Experiences from "../components/Experiences";
 import Projects from "../components/Projects";
 import ProjectSection from "../components/ProjectSection";
+import Skills from "../components/Skills";
 
 export default class Home extends Component {
 	constructor(props: any) {
@@ -61,6 +62,7 @@ export default class Home extends Component {
 					projectUrl="https://discorder.xyz"
 					githubUrl="https://discorder.xyz"
 				></ProjectSection>
+				<Skills></Skills>
 			</div>
 		);
 	}

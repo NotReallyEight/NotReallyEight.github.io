@@ -9,6 +9,8 @@ export default class Navbar extends Component {
 					className="navbar__logo"
 					src="/images/navbar-logo.png"
 					alt="Navbar Logo"
+					width={100}
+					height={100}
 				></img>
 			</div>
 		);

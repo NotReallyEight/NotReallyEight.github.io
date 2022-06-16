@@ -33,7 +33,7 @@ export default class Card extends Component<Props> {
 						rel="noreferrer"
 						className="card__github"
 					>
-						Learn more
+						Learn more about {this.props.imageAlt}
 					</a>
 				</div>
 			</div>

@@ -13,7 +13,7 @@ export default class Subtitle extends Component<Props> {
 				<header className="Subtitle">
 					<div className="subtitle__section">
 						<h2 className="subtitle__title">{this.props.title}</h2>
-						<p className="subtitle__text">{this.props.text}</p>
+						<div className="subtitle__text">{this.props.text}</div>
 					</div>
 				</header>
 			</>
