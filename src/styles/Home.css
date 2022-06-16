@@ -1,12 +1,12 @@
 .Home {
-	flex-flow: column nowrap;
-	-ms-scroll-snap-type: y mandatory;
-	scroll-snap-type: y mandatory;
-	overflow-y: scroll;
-	height: 100vh;
+  flex-flow: column nowrap;
+  -ms-scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 .Home div {
-	-ms-scroll-snap-align: center;
-	scroll-snap-align: center;
+  -ms-scroll-snap-align: center;
+  scroll-snap-align: center;
 }

@@ -1,21 +1,21 @@
 .Subtitle {
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .Subtitle__section {
-	margin: auto;
+  margin: auto;
 }
 
 .subtitle__title {
-	text-align: center;
-	margin: auto;
+  text-align: center;
+  margin: auto;
 }
 
 .subtitle__text {
-	text-align: center;
-	margin: auto;
-	padding: 10px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
 }

@@ -25,7 +25,7 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"predeploy": "npm run build",
-		"prettier": "prettier src/**/*.tsx --write"
+		"prettier": "prettier src/**/*.{tsx,css} --write"
 	},
 	"eslintConfig": {
 		"extends": [

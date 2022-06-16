@@ -1,87 +1,87 @@
 .Card {
-	width: 80%;
-	height: 80%;
-	background: #dbf9d8;
-	display: flex;
-	flex-direction: row;
-	margin: auto;
-	padding: 20px;
-	border-radius: 10px;
+  width: 80%;
+  height: 80%;
+  background: #dbf9d8;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .card__image {
-	width: 50%;
-	height: 100%;
-	object-fit: cover;
-	object-position: left top;
-	border-radius: 10px;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left top;
+  border-radius: 10px;
 }
 
 .card__paragraph {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
 }
 .card__title {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .card__title:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .card__text {
-	font-size: 1.5vw;
+  font-size: 1.5vw;
 }
 
 a {
-	all: unset;
-	text-decoration: underline;
-	cursor: pointer;
-	width: -moz-fit-content;
-	width: fit-content;
+  all: unset;
+  text-decoration: underline;
+  cursor: pointer;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .card__github:hover::after {
-	transform: scale(1.3) rotate(-45deg);
+  transform: scale(1.3) rotate(-45deg);
 }
 
 .card__github::after {
-	content: "";
-	border: solid black;
-	border-width: 0 5px 5px 0;
-	padding: 5px;
-	display: inline-block;
-	transform: rotate(-45deg);
-	margin-left: 5px;
-	transition-duration: 250ms;
+  content: "";
+  border: solid black;
+  border-width: 0 5px 5px 0;
+  padding: 5px;
+  display: inline-block;
+  transform: rotate(-45deg);
+  margin-left: 5px;
+  transition-duration: 250ms;
 }
 
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1000px) {
-	.Card {
-		flex-direction: column;
-	}
+  .Card {
+    flex-direction: column;
+  }
 
-	.card__image {
-		width: 100%;
-		height: 80%;
-	}
+  .card__image {
+    width: 100%;
+    height: 80%;
+  }
 
-	.card__title {
-		font-size: 4vw;
-	}
+  .card__title {
+    font-size: 4vw;
+  }
 
-	.card__text {
-		font-size: 3vw;
-	}
+  .card__text {
+    font-size: 3vw;
+  }
 
-	.card__github::after {
-		border-width: 0 2px 2px 0;
-		padding: 2px;
-	}
+  .card__github::after {
+    border-width: 0 2px 2px 0;
+    padding: 2px;
+  }
 }

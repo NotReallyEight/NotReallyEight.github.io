@@ -1,11 +1,11 @@
 .Projects {
-	height: 100vh;
-	background-color: #556254;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
+  height: 100vh;
+  background-color: #556254;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .Projects h2 {
-	color: white;
+  color: white;
 }
