@@ -6,7 +6,7 @@ import SkillCard from "./SkillCard";
 export default class Skills extends Component {
   render(): JSX.Element {
     return (
-      <div className="Skills">
+      <div className="skills">
         <div className="skills__container">
           <h2>Skills</h2>
           <div className="skills__type">Languages</div>

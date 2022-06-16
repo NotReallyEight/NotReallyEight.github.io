@@ -21,11 +21,12 @@
   "scripts": {
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "npm run prettier && react-scripts build",
+    "build": "npm run stylelint && npm run prettier && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "prettier": "prettier src/**/*.{tsx,css} --write --cache"
+    "prettier": "prettier src/**/*.{tsx,css} --write --cache",
+    "stylelint": "stylelint \"src/**/*.css\" --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +47,9 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "stylelint": "^14.9.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^26.0.0"
   }
 }

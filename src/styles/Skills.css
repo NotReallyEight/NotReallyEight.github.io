@@ -1,4 +1,4 @@
-.Skills {
+.skills {
   height: 100vh;
   background-color: #aac6a7;
   width: 100%;
@@ -7,19 +7,22 @@
   justify-content: center;
 }
 
-.Skills h2 {
+.skills h2 {
   text-align: center;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .skills__container {
   margin-top: auto;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .skills__type {
   text-align: center;
   font-weight: 700;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .skills__collection {
   display: flex;
   flex-direction: row;

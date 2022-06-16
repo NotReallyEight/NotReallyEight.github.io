@@ -9,7 +9,7 @@ export default class Title extends Component<TitleProps> {
   render() {
     return (
       <>
-        <header className="Title">
+        <header className="title">
           <h1 className="title__text">{this.props.title}</h1>
         </header>
       </>

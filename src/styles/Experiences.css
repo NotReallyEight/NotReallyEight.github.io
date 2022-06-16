@@ -1,4 +1,4 @@
-.Experiences {
+.experiences {
   height: 100vh;
   background-color: #a1afa0;
   width: 100%;
@@ -6,11 +6,13 @@
   flex-direction: column;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .experiences__description {
   font-size: 1.5vw;
 }
 
 @media screen and (max-width: 700px) {
+  /* stylelint-disable-next-line selector-class-pattern */
   .experiences__description {
     font-size: 3vw;
   }

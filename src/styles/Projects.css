@@ -1,4 +1,4 @@
-.Projects {
+.projects {
   height: 100vh;
   background-color: #556254;
   width: 100%;
@@ -6,6 +6,6 @@
   flex-direction: column;
 }
 
-.Projects h2 {
+.projects h2 {
   color: white;
 }

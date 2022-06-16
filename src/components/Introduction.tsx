@@ -5,7 +5,7 @@ import Title from "./Title";
 export default class Introduction extends Component {
   render() {
     return (
-      <div className="Introduction">
+      <div className="introduction">
         <Title title="Hi, I'm NotReallyEight"></Title>
       </div>
     );

@@ -1,4 +1,4 @@
-.Home {
+.home {
   flex-flow: column nowrap;
   -ms-scroll-snap-type: y mandatory;
   scroll-snap-type: y mandatory;
@@ -6,7 +6,7 @@
   height: 100vh;
 }
 
-.Home div {
+.home div {
   -ms-scroll-snap-align: center;
   scroll-snap-align: center;
 }

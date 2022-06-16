@@ -1,6 +1,6 @@
 /* Exo */
 @font-face {
-  font-family: "Exo";
+  font-family: Exo;
   font-style: normal;
   font-weight: 800;
   src: url("../../public/fonts/Exo/exo-v19-latin-800.eot"); /* IE9 Compat Modes */
@@ -15,12 +15,13 @@
       format("truetype"),
     /* Safari, Android, iOS */
       url("../../public/fonts/Exo/exo-v19-latin-800.svg#Exo") format("svg"); /* Legacy iOS */
+
   font-display: swap;
 }
 
 /* MerriWeather */
 @font-face {
-  font-family: "Merriweather";
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 700;
   src: url("../../public/fonts/Merriweather/merriweather-v30-latin-700italic.eot"); /* IE9 Compat Modes */
@@ -39,12 +40,13 @@
     /* Safari, Android, iOS */
       url("../../public/fonts/Merriweather/merriweather-v30-latin-700italic.svg#Merriweather")
       format("svg"); /* Legacy iOS */
+
   font-display: swap;
 }
 
 /* Cambay */
 @font-face {
-  font-family: "Cambay";
+  font-family: Cambay;
   font-style: normal;
   font-weight: 400;
   src: url("../../public/fonts/Cambay/cambay-v12-latin-regular.eot"); /* IE9 Compat Modes */
@@ -63,6 +65,7 @@
     /* Safari, Android, iOS */
       url("../../public/fonts/Cambay/cambay-v12-latin-regular.svg#Cambay")
       format("svg"); /* Legacy iOS */
+
   font-display: swap;
 }
 
@@ -73,17 +76,17 @@ body {
 }
 
 h1 {
-  font-family: "Exo", sans-serif;
+  font-family: Exo, sans-serif;
   font-size: 5vw;
 }
 
 h2 {
-  font-family: "Merriweather";
+  font-family: Merriweather, serif;
   font-size: 5vw;
 }
 
 :root {
-  font-family: "Cambay", sans-serif;
+  font-family: Cambay, sans-serif;
   font-size: 2vw;
 }
 

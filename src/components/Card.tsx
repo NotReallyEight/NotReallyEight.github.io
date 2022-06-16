@@ -13,7 +13,7 @@ type Props = {
 export default class Card extends Component<Props> {
   render(): JSX.Element {
     return (
-      <div className="Card">
+      <div className="card">
         <img
           src={this.props.imagePath}
           alt={this.props.imageAlt}

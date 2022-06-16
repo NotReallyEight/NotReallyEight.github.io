@@ -1,4 +1,4 @@
-.Card {
+.card {
   width: 80%;
   height: 80%;
   background: #dbf9d8;
@@ -9,6 +9,7 @@
   border-radius: 10px;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .card__image {
   width: 50%;
   height: 100%;
@@ -17,20 +18,25 @@
   border-radius: 10px;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .card__paragraph {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 10px;
 }
+
+/* stylelint-disable-next-line selector-class-pattern */
 .card__title {
   font-weight: 700;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .card__title:hover {
   text-decoration: none;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .card__text {
   font-size: 1.5vw;
 }
@@ -43,10 +49,7 @@ a {
   width: fit-content;
 }
 
-.card__github:hover::after {
-  transform: scale(1.3) rotate(-45deg);
-}
-
+/* stylelint-disable-next-line selector-class-pattern */
 .card__github::after {
   content: "";
   border: solid black;
@@ -58,28 +61,37 @@ a {
   transition-duration: 250ms;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
+.card__github:hover::after {
+  transform: scale(1.3) rotate(-45deg);
+}
+
 a:hover {
   text-decoration: none;
 }
 
 @media screen and (max-width: 1000px) {
-  .Card {
+  .card {
     flex-direction: column;
   }
 
+  /* stylelint-disable-next-line selector-class-pattern */
   .card__image {
     width: 100%;
     height: 80%;
   }
 
+  /* stylelint-disable-next-line selector-class-pattern */
   .card__title {
     font-size: 4vw;
   }
 
+  /* stylelint-disable-next-line selector-class-pattern */
   .card__text {
     font-size: 3vw;
   }
 
+  /* stylelint-disable-next-line selector-class-pattern */
   .card__github::after {
     border-width: 0 2px 2px 0;
     padding: 2px;

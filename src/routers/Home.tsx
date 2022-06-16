@@ -32,7 +32,7 @@ export default class Home extends Component {
 
   render(): JSX.Element {
     return (
-      <div className="Home" dir="ltr" onScroll={() => this.handleScroll(this)}>
+      <div className="home" dir="ltr" onScroll={() => this.handleScroll(this)}>
         <Introduction></Introduction>
         <Navbar></Navbar>
         <AboutMe></AboutMe>

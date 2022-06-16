@@ -10,7 +10,7 @@ type Props = {
 export default class SkillCard extends Component<Props> {
   render(): JSX.Element {
     return (
-      <div className="SkillCard">
+      <div className="skill-card">
         <a href={this.props.projectUrl}>
           <img
             alt={this.props.imageAlt}

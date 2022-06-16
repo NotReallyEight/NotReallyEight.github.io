@@ -8,7 +8,7 @@ export default class AboutMe extends Component {
 
   render(): JSX.Element {
     return (
-      <div className="AboutMe">
+      <div className="about-me">
         <Subtitle title="About me" text={this.introductionText}></Subtitle>
       </div>
     );

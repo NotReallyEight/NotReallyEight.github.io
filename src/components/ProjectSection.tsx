@@ -14,7 +14,7 @@ type Props = {
 export default class ProjectSection extends Component<Props> {
   render(): JSX.Element {
     return (
-      <div className="ProjectSection">
+      <div className="project-section">
         <Card {...this.props}></Card>
       </div>
     );

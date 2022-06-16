@@ -1,19 +1,22 @@
-.Subtitle {
+.subtitle {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.Subtitle__section {
+/* stylelint-disable-next-line selector-class-pattern */
+.subtitle__section {
   margin: auto;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .subtitle__title {
   text-align: center;
   margin: auto;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .subtitle__text {
   text-align: center;
   margin: auto;

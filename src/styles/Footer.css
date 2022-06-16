@@ -1,10 +1,11 @@
-.Footer {
+.footer {
   background-color: #7c92b3;
   margin-top: auto;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .footer__text {
-  font-family: "Merriweather";
+  font-family: Merriweather, serif;
   text-align: center;
   padding: 1vh;
 }
