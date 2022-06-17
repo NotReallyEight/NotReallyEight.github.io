@@ -1,5 +1,13 @@
 .footer {
-  background-color: #7c92b3;
+  background: linear-gradient(
+    to right,
+    #e1ffde,
+    #aae2cc,
+    #74c4c1,
+    #43a5b8,
+    #2084ac,
+    #286197
+  );
   margin-top: auto;
   height: 10vh;
 }
