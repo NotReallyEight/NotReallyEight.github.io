@@ -1,6 +1,5 @@
 import { Component } from "react";
 import "../styles/Skills.css";
-import Footer from "./Footer";
 import SkillCard from "./SkillCard";
 
 export default class Skills extends Component {
@@ -61,7 +60,6 @@ export default class Skills extends Component {
             ></SkillCard>
           </div>
         </div>
-        <Footer></Footer>
       </div>
     );
   }
