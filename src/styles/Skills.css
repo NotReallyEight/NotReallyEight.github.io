@@ -1,5 +1,5 @@
 .skills {
-  height: 100vh;
+  height: 90vh;
   background-color: #aac6a7;
   width: 100%;
   display: flex;
@@ -9,11 +9,6 @@
 
 .skills h2 {
   text-align: center;
-}
-
-/* stylelint-disable-next-line selector-class-pattern */
-.skills__container {
-  margin-top: auto;
 }
 
 /* stylelint-disable-next-line selector-class-pattern */
