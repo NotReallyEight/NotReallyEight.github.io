@@ -18,14 +18,14 @@ export default class Home extends Component {
   }
 
   handleScroll(thisKeyword: Home) {
-    const homeElement = document.querySelector(".Home");
+    const homeElement = document.querySelector(".home");
     let currentScrollPosition = homeElement?.scrollTop ?? 0;
     if (
       (thisKeyword.state as Readonly<{ previousScrollPosition: number }>)
         .previousScrollPosition < currentScrollPosition
     )
-      (document.querySelector(".Navbar") as HTMLElement).style.top = "-100%";
-    else (document.querySelector(".Navbar") as HTMLElement).style.top = "0";
+      (document.querySelector(".navbar") as HTMLElement).style.top = "-100%";
+    else (document.querySelector(".navbar") as HTMLElement).style.top = "0";
 
     thisKeyword.setState({ previousScrollPosition: currentScrollPosition });
     return undefined;
