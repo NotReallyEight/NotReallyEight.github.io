@@ -20,6 +20,6 @@
 /* stylelint-disable-next-line selector-class-pattern */
 .skills__collection {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: center;
 }
