@@ -15,7 +15,7 @@ export default class SkillCard extends Component<Props> {
           <img
             alt={this.props.imageAlt}
             src={this.props.imagePath}
-            className="skillCard__image"
+            className="skill-card__image"
             width={200}
             height={200}
             loading="lazy"
