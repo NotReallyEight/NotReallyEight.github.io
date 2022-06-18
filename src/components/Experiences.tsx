@@ -19,7 +19,7 @@ export default class Experiences extends Component {
 
   render(): JSX.Element {
     return (
-      <div className="experiences">
+      <div className="experiences" id="experiences">
         <Subtitle title="Experiences" text={this.experiencesText}></Subtitle>
       </div>
     );

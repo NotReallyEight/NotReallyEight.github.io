@@ -5,7 +5,7 @@ import "../styles/Projects.css";
 export default class Projects extends Component {
   render(): JSX.Element {
     return (
-      <div className="projects">
+      <div className="projects" id="projects">
         <Subtitle title="Projects"></Subtitle>
       </div>
     );
