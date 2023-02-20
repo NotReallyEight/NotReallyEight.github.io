@@ -14,6 +14,11 @@ export default class Experiences extends Component {
       <span className="experiences__description">
         <br></br>FEBRUARY 2022 - PRESENT<br></br>Quick and reliable hosting.
       </span>
+      <span className="experiences__title">Foodintab, Italy - CTO</span>
+      <span className="experiences__description">
+        <br></br>JULY 2022 - PRESENT<br></br>An app to find restaurants around
+        you and manage your restaurant.
+      </span>
     </div>
   );
 

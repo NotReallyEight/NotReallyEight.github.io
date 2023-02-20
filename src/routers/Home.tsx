@@ -52,7 +52,7 @@ export default class Home extends Component {
           imagePath="/images/atn-modmail.webp"
           text="ATN Modmail is an easy to use Discord Modmail bot! This is also a nice alternative to premade Modmail bots because of the customisable things that you can find!"
           title="ATN Modmail — Discord Modmail Bot"
-          projectUrl="https://docs.notreallyeight.tk/atn-modmail"
+          projectUrl="https://notreallyeight.xyz"
           githubUrl="https://github.com/ATN-Development/atn-modmail"
         ></ProjectSection>
         <ProjectSection
@@ -60,8 +60,8 @@ export default class Home extends Component {
           imagePath="/images/discorder.webp"
           text="A secure Discord logging API."
           title="Discorder - REST API"
-          projectUrl="https://discorder.xyz"
-          githubUrl="https://discorder.xyz"
+          projectUrl="https://discorder.techhost.pro/"
+          githubUrl="https://discorder.techhost.pro/"
         ></ProjectSection>
         <Skills></Skills>
         <Footer></Footer>
