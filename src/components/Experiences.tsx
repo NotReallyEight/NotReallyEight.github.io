@@ -13,6 +13,7 @@ export default class Experiences extends Component {
       <span className="experiences__title">TechHost, UK - Developer</span>
       <span className="experiences__description">
         <br></br>FEBRUARY 2022 - PRESENT<br></br>Quick and reliable hosting.
+        <br></br>
       </span>
       <span className="experiences__title">Foodintab, Italy - CTO</span>
       <span className="experiences__description">
