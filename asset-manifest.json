@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d6406240.css",
+    "main.js": "/static/js/main.4c674b69.js",
+    "static/media/merriweather-v30-latin-700italic.svg": "/static/media/merriweather-v30-latin-700italic.b88a1009e0044484a72b.svg",
+    "static/media/cambay-v12-latin-regular.ttf": "/static/media/cambay-v12-latin-regular.10879d6c365c7b000b36.ttf",
+    "static/media/exo-v19-latin-800.svg": "/static/media/exo-v19-latin-800.e4a074305ff949951b7b.svg",
+    "static/media/cambay-v12-latin-regular.svg": "/static/media/cambay-v12-latin-regular.0d970ad4509fe335d0f0.svg",
+    "static/media/merriweather-v30-latin-700italic.ttf": "/static/media/merriweather-v30-latin-700italic.af825c17092e14158a60.ttf",
+    "static/media/cambay-v12-latin-regular.woff": "/static/media/cambay-v12-latin-regular.cfe2a0320c3a64a1fde6.woff",
+    "static/media/exo-v19-latin-800.ttf": "/static/media/exo-v19-latin-800.a5fda7e195a4067f91af.ttf",
+    "static/media/merriweather-v30-latin-700italic.woff": "/static/media/merriweather-v30-latin-700italic.45a0e161bc3f59639399.woff",
+    "static/media/cambay-v12-latin-regular.eot": "/static/media/cambay-v12-latin-regular.35ff4b448082be338634.eot",
+    "static/media/merriweather-v30-latin-700italic.eot": "/static/media/merriweather-v30-latin-700italic.5f0b7416a003da918fee.eot",
+    "static/media/cambay-v12-latin-regular.woff2": "/static/media/cambay-v12-latin-regular.8bb07849ad9ad4a8d1a4.woff2",
+    "static/media/merriweather-v30-latin-700italic.woff2": "/static/media/merriweather-v30-latin-700italic.604aef4d3a197015561c.woff2",
+    "static/media/exo-v19-latin-800.woff": "/static/media/exo-v19-latin-800.c05a56caed24c80e68bb.woff",
+    "static/media/exo-v19-latin-800.eot": "/static/media/exo-v19-latin-800.4797ba15811a4d22985d.eot",
+    "static/media/exo-v19-latin-800.woff2": "/static/media/exo-v19-latin-800.15642b96945d907e3cde.woff2",
+    "index.html": "/index.html",
+    "main.d6406240.css.map": "/static/css/main.d6406240.css.map",
+    "main.4c674b69.js.map": "/static/js/main.4c674b69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6406240.css",
+    "static/js/main.4c674b69.js"
+  ]
+}
