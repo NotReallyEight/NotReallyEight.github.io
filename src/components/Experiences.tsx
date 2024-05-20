@@ -5,10 +5,13 @@ import Subtitle from "./Subtitle";
 export default class Experiences extends Component {
   experiencesText = (
     <div>
-      <span className="experiences__title">ATN Development, Italy - CEO</span>
+      <span className="experiences__title">
+        ATN Development, Italy - Founder
+      </span>
       <span className="experiences__description">
-        <br></br>AUGUST 2020 - PRESENT<br></br>Open source non-profit company
-        for Discord related projects and much more.<br></br>
+        <br></br>AUGUST 2020 - PRESENT<br></br>Open source non-profit
+        organisation creating Discord related projects and SaaS applications.
+        <br></br>
       </span>
       <span className="experiences__title">TechHost, UK - Developer</span>
       <span className="experiences__description">
@@ -17,8 +20,8 @@ export default class Experiences extends Component {
       </span>
       <span className="experiences__title">Foodintab, Italy - CTO</span>
       <span className="experiences__description">
-        <br></br>JULY 2022 - PRESENT<br></br>An app to find restaurants around
-        you and manage your restaurant.
+        <br></br>JULY 2022 - SEPTEMBER 2023<br></br>An app to find restaurants
+        around you and manage your restaurant.
       </span>
     </div>
   );

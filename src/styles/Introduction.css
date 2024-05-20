@@ -1,5 +1,13 @@
 .introduction {
   height: 100vh;
-  background-color: #e2f8ff;
+  background-color: #C5C5C5;
   width: 100%;
+  color: #000000
+}
+
+@media (prefers-color-scheme: dark) {
+  .introduction {
+    background-color: #4C5B61;
+    color: #f0f0f0;
+  }
 }

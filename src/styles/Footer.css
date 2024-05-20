@@ -1,5 +1,5 @@
 .footer {
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right,
     #e1ffde,
     #aae2cc,
@@ -7,7 +7,8 @@
     #43a5b8,
     #2084ac,
     #286197
-  );
+  ); */
+  background-color: #C5C5C5;
   margin-top: auto;
   height: 10vh;
 }
@@ -20,4 +21,11 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer {
+    background-color: #4C5B61;
+    color: #000000
+  }
 }

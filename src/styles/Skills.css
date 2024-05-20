@@ -1,6 +1,6 @@
 .skills {
   height: 90vh;
-  background-color: #aac6a7;
+  background-color: #C5C5C5;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -22,4 +22,11 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  .skills {
+    background-color: #4C5B61;
+    color: #f0f0f0;
+  }
 }

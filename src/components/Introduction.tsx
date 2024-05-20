@@ -6,7 +6,7 @@ export default class Introduction extends Component {
   render() {
     return (
       <div className="introduction" id="introduction">
-        <Title title="Hi, I'm NotReallyEight"></Title>
+        <Title title="Hi, I'm Antonio Wang"></Title>
       </div>
     );
   }

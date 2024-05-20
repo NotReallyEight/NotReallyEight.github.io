@@ -1,11 +1,19 @@
 .projects {
   height: 100vh;
-  background-color: #556254;
+  background-color: #C5C5C5;
   width: 100%;
+  color: #000000;
   display: flex;
   flex-direction: column;
 }
 
 .projects h2 {
   color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  .projects {
+    background-color: #4C5B61;
+    color: #f0f0f0;
+  }
 }
